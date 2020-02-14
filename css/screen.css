@@ -1,7 +1,7 @@
 body
 {
-    background-color: rgb(133, 133, 133);
-    margin: 40px;
+    background-color: rgb(200, 200, 200);
+    margin: 40px 20px 100px 20px;
 }
 
 /*
@@ -16,6 +16,7 @@ html
     line-height: 1.5;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #111;
+    padding: 24px 24px 0;
 }
 
 /*
@@ -25,15 +26,109 @@ html
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-
-}
-
-::selection {
+::selection 
+{
+    background-color: #44c8F5;
+    color: white;
 
 }
 
 img
 {
     max-width: 100%;
+}
+
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1
+{
+    font-family:'Times New Roman', serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2 
+{
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+h3 
+{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 
+{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure
+{
+    margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote 
+{
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: grey;
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+
+}
+
+figcaption {
+
+}
+
+hr {
+
+}
+
+a
+{
+    color: royalblue;
+    transition: all .1s ease-in-out;
+}
+
+
+a:visited,
+a:active
+{
+    color: blueviolet;
+}
+
+a:hover,
+a:focus 
+{
+    color: rgb(218, 0, 0);
 }
