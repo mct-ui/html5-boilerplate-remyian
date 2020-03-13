@@ -50,6 +50,10 @@ img {
     Default markup for typographic elements
 */
 
+*+h2{
+    margin-top: 48px;
+}
+
 h1,
 h2,
 h3{
@@ -237,7 +241,45 @@ a:focus {
         page-break-after: avoid;
     }
     
+    /* caption naast elkaar zetten */
+    .c-author{
+        display: flex;
+        align-items: center;
+    }
     
+    /* hoogte, breedte instellen en rond maken */
+    .c-author__image{
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+    }
+    
+    /* margin verwijderen */
+    .c-author__name,
+    .c-author__meta{
+        margin-bottom: 0;
+    }
+    
+    /* font wijzigen */
+    .c-author__meta{
+        font-size: 14px;
+        font-family: "inter", "Helvetica Neue", Arial, Helvetica, sans-serif;
+        line-height: 24px;
+    }
+
+    .c-author__name{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .c-author__image{
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        margin-right: 16px;
+    }
+
+
     @font-face {
         font-family: "droid-serif";
         font-weight: 700;
