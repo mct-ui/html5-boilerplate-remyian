@@ -7,12 +7,15 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    /* font-family: "Inter web" "Helvetica Neue", Helvetica, arial, sans-serif; */
+    font-family: "droid-serif", Georgia, serif;
     color: #5C6366;
     padding: 48px 24px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+body { 
     max-width: 42em;
     margin: 0 auto;
 }
@@ -51,10 +54,11 @@ h1,
 h2,
 h3{
     color: #17181A;
+    font-family: "Inter web" "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: "Playfair Display", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -231,5 +235,24 @@ a:focus {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+    
+    
+    @font-face {
+        font-family: "droid-serif";
+        font-weight: 700;
+        src: url("https://use.typekit.net/pjy6mva.css");
+    }
+    
+
+    @font-face {
+        font-family: "Inter web";
+        font-weight: 700;
+        src: url("../fonts/Inter-Regular.woff") format("woff2");
+    }
+    @font-face {
+        font-family: "Inter web";
+        font-weight: 700;
+        src: url("../fonts/Inter-Bold.woff") format("woff2");
     }
 }
