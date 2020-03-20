@@ -1,0 +1,36 @@
+body{
+    background-color: dimgray;
+    color: linen;
+}
+
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body {
+    padding: 10px;
+}
+
+#header {
+    color: black;
+    width: 180px;
+}
+
+#nav {
+    float: left;
+    width: 600px;
+}
+
+#main {
+    float: right;
+}
+
+#footer {
+    color: black;
+}
+
+#footer{
+    clear: both;
+}
